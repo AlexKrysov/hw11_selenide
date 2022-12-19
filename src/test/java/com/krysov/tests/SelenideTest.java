@@ -13,7 +13,7 @@ public class SelenideTest extends TestBase{
 
     @Test
     @Owner("Alex Krysov")
-    void SelenideSearchTest(){
+    void selenideSearchTest(){
         step("Open github.com", () ->
         open("https://github.com"));
         step("Open Selenide project", () -> {
